@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>$(IncludePath);$(SolutionDir)..\..\src;$(SolutionDir)..\..\thridpaty\dnssdpp\depends\bonjour-sdk\Include;$(SolutionDir)..\..\thridpaty\dnssdpp\source;$(SolutionDir)..\..\thridpaty\LWS\lws-src;$(SolutionDir)..\..\thridpaty\muradin_basic\source;$(SolutionDir)..\..\thridpaty\win-scm-ctrl\winsrv_ctrl\src;$(SolutionDir)..\..\thridpaty\jsoncpp\include</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
+  <ItemGroup />
+</Project>
