@@ -4,7 +4,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <IncludePath>$(IncludePath);$(SolutionDir)..\..\src;$(SolutionDir)..\..\thridpaty\dnssdpp\depends\bonjour-sdk\Include;$(SolutionDir)..\..\thridpaty\dnssdpp\source;$(SolutionDir)..\..\thridpaty\LWS\lws-src;$(SolutionDir)..\..\thridpaty\muradin_basic\source;$(SolutionDir)..\..\thridpaty\win-scm-ctrl\winsrv_ctrl\src;$(SolutionDir)..\..\thridpaty\jsoncpp\include</IncludePath>
+    <IncludePath>$(IncludePath);$(SolutionDir)..\..\src;$(SolutionDir)..\..\thridpaty\dnssdpp\depends\bonjour-sdk\Include;$(SolutionDir)..\..\thridpaty\dnssdpp\source;$(SolutionDir)..\..\thridpaty\LWS\lws-src;$(SolutionDir)..\..\thridpaty\muradin_basic\source;$(SolutionDir)..\..\thridpaty\PlistCpp\src</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup />
   <ItemGroup />

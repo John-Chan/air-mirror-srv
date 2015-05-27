@@ -10,6 +10,16 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libplistcpp", "libplistcpp\libplistcpp.vcxproj", "{A6BD35D2-250B-434B-8F18-B3FAC85BC4DA}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scr-mirror", "scr-mirror\scr-mirror.vcxproj", "{36EBFC2F-EEDB-4D63-A867-8C96302A3B91}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A6BD35D2-250B-434B-8F18-B3FAC85BC4DA} = {A6BD35D2-250B-434B-8F18-B3FAC85BC4DA}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "u-testing", "u-testing", "{7A8E1B73-547B-43C6-9ACA-1745D97C8D9C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test-plist", "test-plist\test-plist.vcxproj", "{9E3E0571-1394-43A8-BD9B-E6A2B7F47E17}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A6BD35D2-250B-434B-8F18-B3FAC85BC4DA} = {A6BD35D2-250B-434B-8F18-B3FAC85BC4DA}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +35,10 @@ Global
 		{36EBFC2F-EEDB-4D63-A867-8C96302A3B91}.Debug|Win32.Build.0 = Debug|Win32
 		{36EBFC2F-EEDB-4D63-A867-8C96302A3B91}.Release|Win32.ActiveCfg = Release|Win32
 		{36EBFC2F-EEDB-4D63-A867-8C96302A3B91}.Release|Win32.Build.0 = Release|Win32
+		{9E3E0571-1394-43A8-BD9B-E6A2B7F47E17}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9E3E0571-1394-43A8-BD9B-E6A2B7F47E17}.Debug|Win32.Build.0 = Debug|Win32
+		{9E3E0571-1394-43A8-BD9B-E6A2B7F47E17}.Release|Win32.ActiveCfg = Release|Win32
+		{9E3E0571-1394-43A8-BD9B-E6A2B7F47E17}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +46,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A6BD35D2-250B-434B-8F18-B3FAC85BC4DA} = {BF82EF2A-DF82-4FA9-8B8E-B1C8252397A9}
 		{36EBFC2F-EEDB-4D63-A867-8C96302A3B91} = {BF82EF2A-DF82-4FA9-8B8E-B1C8252397A9}
+		{9E3E0571-1394-43A8-BD9B-E6A2B7F47E17} = {7A8E1B73-547B-43C6-9ACA-1745D97C8D9C}
 	EndGlobalSection
 EndGlobal
