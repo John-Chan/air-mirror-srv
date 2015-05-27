@@ -1,0 +1,9 @@
+[submodule "thridpaty/PlistCpp"]
+	path = thridpaty/PlistCpp
+	url = ../PlistCpp.git
+[submodule "thridpaty/LWS"]
+	path = thridpaty/LWS
+	url = ../LWS.git
+[submodule "thridpaty/muradin_basic"]
+	path = thridpaty/muradin_basic
+	url = ../muradin_basic.git
