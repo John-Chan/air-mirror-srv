@@ -82,8 +82,23 @@ static void createMessage(map<string, boost::any>& dict)
 
 }
 
+void	test2()
+{
+	//
+	map<string, boost::any> dict;
+	dict["height"] = 1080;
+	dict["width"] = 1920;
+	dict["overscanned"] = 0;
+	dict["refreshRate"] = (double)0.016666666666666666;
+	dict["version"] = 150.33;
+	dict["height"] = 1080;
+
+	Plist::writePlistXML(std::cout, dict);
+	
+}
 int _tmain(int argc, _TCHAR* argv[])
 {
+	test2();
 	map<string, boost::any> dict;
 	createMessage(dict);
 	return 0;

@@ -16,6 +16,9 @@
     <Filter Include="src">
       <UniqueIdentifier>{6c92db27-8d1e-4852-8245-70f62dd797a3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="_shared">
+      <UniqueIdentifier>{be4d1bfa-b754-4c22-8a27-2a86ed104df8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -39,6 +42,21 @@
     <ClInclude Include="..\..\..\src\airm\fp_setup.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\thridpaty\LWS\lws-src\httph\urlcpp\Path.h">
+      <Filter>_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\thridpaty\LWS\lws-src\httph\urlcpp\Url.h">
+      <Filter>_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\airm\tcp\tcp_connection.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\airm\tcp\tcp_server.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\airm\fairplay.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -52,6 +70,12 @@
     </ClCompile>
     <ClCompile Include="..\..\..\src\airm\fp_setup.cpp">
       <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thridpaty\LWS\lws-src\httph\urlcpp\Path.cpp">
+      <Filter>_shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thridpaty\LWS\lws-src\httph\urlcpp\Url.cpp">
+      <Filter>_shared</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
