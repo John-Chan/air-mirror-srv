@@ -7,3 +7,6 @@
 [submodule "thridpaty/muradin_basic"]
 	path = thridpaty/muradin_basic
 	url = ../muradin_basic.git
+[submodule "thridpaty/dnssdpp"]
+	path = thridpaty/dnssdpp
+	url = ../dnssdpp.git
